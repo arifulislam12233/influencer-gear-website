@@ -84,6 +84,17 @@ align-items: flex-start;
 gap: 8px;
 border: 0;
 }
+.sponsers-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    gap: 40px;
+}
+
+.sponsers-img-container img{
+    width: 84px;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -116,6 +127,11 @@ border: 0;
         background-size:280px ;
     }
     
+    .sponsers-img-container{
+        flex-direction: column;
+      
+    }
+    
     
     
 }
@@ -126,5 +142,9 @@ border: 0;
     }
     .banner {
         flex-direction: column;
+    }
+    .sponsers-img-container{
+        flex-direction: column;
+      
     }
 }
