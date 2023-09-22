@@ -43,11 +43,16 @@ font-weight: 700;
 .banner{
     display: flex;
     align-items: center;
+ 
+    
+}
+.camera-container{
+    height: 400px;
+    width: 400px;
     background-image: url('/images/Circle\ design.svg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-size:400px ;
-    
 }
 .banner .camera{
     width: 400px;
@@ -78,4 +83,48 @@ padding: 10px 24px;
 align-items: flex-start;
 gap: 8px;
 border: 0;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner{
+        display: flex;
+        align-items: center;
+        /* background-image: url('/images/Circle\ design.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:280px ; */
+        
+    }
+
+    .banner .camera{
+        width: 280px;
+    
+    }
+    .camera-container{
+        height: 280px;
+        width: 280px;
+        background-image: url('/images/Circle\ design.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:280px ;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+    nav {
+        flex-direction: column;
+    }
+    .banner {
+        flex-direction: column;
+    }
 }
