@@ -181,6 +181,36 @@ letter-spacing: 0.252px;
     .skills-container{
         flex-direction: column;
     }
+    .skills-container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .center{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+    .skill-title{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+    .title{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+    .skill-description{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
 
     
     
@@ -200,5 +230,38 @@ letter-spacing: 0.252px;
     }
     .skills-container{
         flex-direction: column;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .skills-container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .center{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+    .skill-title{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+    .title{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+    .skill-description{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
     }
 }
