@@ -95,6 +95,53 @@ border: 0;
 .sponsers-img-container img{
     width: 84px;
 }
+.popular{
+    color: #3A3A3A;
+font-size: 28px;
+font-weight: 600;
+text-align: center;
+margin-top: 134px;
+margin-bottom: 34px;
+
+
+}
+.skills-container{
+    display: flex;
+    width: 329px;
+height: 476px;
+border-radius: 5px;
+background: #FFF;
+gap: 30px;
+
+
+}
+.skill{
+    
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.skill-title{
+    color:  #18191F;
+font-size: 28px;
+font-weight: 500;
+}
+.title{
+    color: rgba(0, 0, 0, 0.87);
+font-size: 24px;
+font-weight: 400;
+}
+.skill-description{
+    color: var(--gray-50, #787885);
+
+font-size: 14px;
+
+font-weight: 700;
+line-height: 143%; 
+letter-spacing: 0.252px;
+
+}
+
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -131,6 +178,10 @@ border: 0;
         flex-direction: column;
       
     }
+    .skills-container{
+        flex-direction: column;
+    }
+
     
     
     
@@ -146,5 +197,8 @@ border: 0;
     .sponsers-img-container{
         flex-direction: column;
       
+    }
+    .skills-container{
+        flex-direction: column;
     }
 }
